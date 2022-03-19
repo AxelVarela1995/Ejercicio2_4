@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio2_4.MainPage">
+
+    <StackLayout BackgroundColor="#45D5CE">
+        <Frame BackgroundColor="#000C66" Padding="24" CornerRadius="0">
+            <Label Text="Ejercicio 2.2" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Button x:Name="btnAgregar" BackgroundColor="#000C66" Text="Agregar Videos" TextColor="White"  Clicked="btnAgregar_Clicked"></Button>
+        <Button x:Name="btnSwipe" BackgroundColor="#000C66" Text="Ver Lista de Videos" TextColor="White"  Clicked="btnSwipe_Clicked"></Button>
+    </StackLayout>
+
+</ContentPage>

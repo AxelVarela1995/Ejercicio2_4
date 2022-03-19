@@ -5,7 +5,7 @@
 
     <StackLayout BackgroundColor="#45D5CE">
         <Frame BackgroundColor="#000C66" Padding="24" CornerRadius="0">
-            <Label Text="Ejercicio 2.2" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            <Label Text="Ejercicio 2.4" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
 
         <Button x:Name="btnAgregar" BackgroundColor="#000C66" Text="Agregar Videos" TextColor="White"  Clicked="btnAgregar_Clicked"></Button>
